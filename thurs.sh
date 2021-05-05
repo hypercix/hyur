@@ -7,7 +7,7 @@ rnds=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 10)
 
 echo -e "\033[33;4m Port Sayisi kactan baslasin: 30000-50000 Tarzi Girin \033[0m";read port1
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/Suryta6/sokrays/main/3proxy.sh'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/hypercix/jgr/main/3proxy.sh'
 
 chmod +x /etc/3proxy/3proxy.sh
 
