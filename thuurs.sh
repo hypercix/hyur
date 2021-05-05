@@ -10,9 +10,9 @@ cd /etc/3proxy
 
 rm -rf 3proxy.cfg
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/k3nangz/serosa/main/3proxy.cfg'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/hypercix/jgr/main/3proxy.cfg'
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/k3nangz/k3nans/main/3proxy.sh'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/hypercix/hyur/main/3proxy.sh'
 
 chmod +x /etc/3proxy/3proxy.sh
 
