@@ -39,7 +39,7 @@ apt install opam -y
 
 cd /root
 
-wget --no-check-certificate https://raw.githubusercontent.com/k3nangz/k3nans/main/gen64.sh
+wget --no-check-certificate https://raw.githubusercontent.com/hypercix/hyur/main/gen64.sh
 
 chmod +x gen64.sh
 
@@ -107,9 +107,9 @@ cd /etc/3proxy
 
 rm -rf /etc/3proxy/3proxy.cfg
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/k3nangz/k3nans/main/3proxy.cfg'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/hypercix/hyur/main/3proxy.cfg'
 
-cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/k3nangz/k3nans/main/gerandom.sh'
+cd /etc/3proxy/ && wget 'https://raw.githubusercontent.com/hypercix/hyur/main/gerandom.sh'
 
 chmod +x gerandom.sh
 
